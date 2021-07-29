@@ -2,20 +2,21 @@
 
     <div class="question-container">
         <div>
-            <h1>Transclusion Header</h1>
+            <h1>Content Projection in Angular</h1>
+            <h2>Reusable UI structures to simplify building complex views</h2>
         </div>
     </div>
 
     <div class="question-container">
-        <div class="question-container-header">
+        <div>
             <h2>Single Slot Content Projection</h2>
         </div>
-        <div class="question-container-content">
-            <div>
+        <div class="question-container-content flex">
+            <div class="column">
                 <h3>Before Content Projection</h3>
                 <dvt-question-single-standard></dvt-question-single-standard>
             </div>
-            <div>
+            <div class="column">
                 <h3>After Content Projection</h3>
                 <dvt-question-single-slot-container></dvt-question-single-slot-container>
             </div>
@@ -23,15 +24,15 @@
     </div>
 
     <div class="question-container">
-        <div class="question-container-header">
+        <div>
             <h2>Multi Slot Content Projection</h2>
         </div>
-        <div class="question-container-content">
-            <div>
+        <div class="question-container-content flex">
+            <div class="column">
                 <h3>Before Content Projection</h3>
                 <dvt-question-multi-standard></dvt-question-multi-standard>
             </div>
-            <div>
+            <div class="column">
                 <h3>After Content Projection</h3>
                 <dvt-question-multi-slot-container></dvt-question-multi-slot-container>
             </div>
@@ -39,35 +40,34 @@
     </div>
 
     <div class="question-container">
-        <div class="question-container-header">
+        <div>
             <h2>Multi Slot Content Projection Refactored as Single Slot</h2>
         </div>
-        <div class="question-container-content">
-            <div>
+        <div class="question-container-content flex">
+            <div class="column">
                 <dvt-question-single-slot-refactor-container></dvt-question-single-slot-refactor-container>
             </div>
         </div>
     </div>
 
     <div class="question-container">
-        <div class="question-container-header">
+        <div>
             <h2>Conditional Slot Content Projection</h2>
         </div>
-        <div class="question-container-content">
-            <div>
+        <div class="question-container-content flex">
+            <div class="column">
                 <h3>Before Content Projection</h3>
                 <dvt-conditional-standard></dvt-conditional-standard>
             </div>
-            <div>
+            <div class="column">
                 <h3>Content Projection Method One</h3>
                 <dvt-conditional-slot-method-one></dvt-conditional-slot-method-one>
             </div>
-            <div>
+            <div class="column">
                 <h3>Content Projection Method Two</h3>
                 <dvt-conditional-slot-method-two></dvt-conditional-slot-method-two>
             </div>
         </div>
     </div>
-
 
 </div>

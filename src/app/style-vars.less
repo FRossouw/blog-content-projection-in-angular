@@ -1,0 +1,70 @@
+@padding: 5px;
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.standard {
+    padding-right: @padding;
+    label {
+        flex-grow: 1;
+    }
+    input {
+        width: 30%;
+    }
+}
+
+.standard-radio {
+    padding-right: @padding;
+    label {
+        flex-grow: 1;
+    }
+    input {
+        width: 10%;
+    }
+}
+
+.single {
+    padding-right: @padding;
+    width: 100%;
+    label {
+        flex-grow: 1;
+    }
+    input {
+        width: 100%;
+    }
+}
+
+.multi {
+    padding-right: @padding;
+    width: 100%;
+    label, input {
+        flex-grow: 1;
+    }
+}
+
+.refactor {
+    padding-right: @padding;
+    width: 100%;
+    label {
+        flex-grow: 1;
+    }
+    input {
+        width: 100%;
+    }
+}
+
+
+.refactor-radio {
+    padding-right: @padding;
+    width: 100%;
+    label {
+        flex-grow: 1;
+    }
+    input {
+        width: 10%;
+    }
+}
