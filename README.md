@@ -1,27 +1,28 @@
-# ContentProjectionInAngular
+# ContentProjection In Angular
+Reusable UI structures to simplify building complex views
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
-## Development server
+## Blog Information
+Content Projection is a powerful directive used within Angular and it allows us to encapsulate elements into components that are fully customisable. This is achieved by injecting custom HTML into these components. In other words, parts of the component would change based on the currently displayed screen and DOM.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This article demonstrates how Content Projection can simplify your code by breaking down complex views and creating reusable directives that remove duplication in your views.
 
-## Code scaffolding
+I hope you can now see that Transclusion can help you improve your component reusability and ultimately to simplify dynamic DOM manipulation.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+If you would like to learn more about this please have a look at the Official Documentation here, where you can learn other topics such as the default template.
 
-## Build
+Thank you for reading my article. I hope you learned something new and exciting, and that you now have a better understanding of Content Projection or Transclusion and the various types you can use to improve your code.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Please feel free to leave a comment if you need clarification or if you have something to add. You can also find a complete GitHub repository for this topic here.
 
-## Running unit tests
+If you enjoyed this article please also check the [DVT Engineering](https://medium.com/dvt-engineering) space for more interesting articles and follow [me](https://medium.com/@frossouw) for future topics.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Starting the Applicaiton
+1. Clone the project from GitHUb into a folder on your computer.
+2. Run `npm install` in the terminal to install all dependencies.
+3. Run `ng serve` for a local development server.
+4. Navigate to `http://localhost:4200/` to see the application running.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Screenshot of Content Projection Application
+![](src/assets/screenshot.png)
