@@ -1,0 +1,16 @@
+<div>
+    <h2>5. Have you matriculated?</h2>
+
+    <input type="checkbox" id="condi-terms" name="condi-terms" [checked]="( matriculated === true )"
+        (change)="matriculated = $event.target.checked;">
+
+    <label for="condi-terms">I have matriculated high school.</label>
+
+    <div *ngIf="matriculated">
+        <label for="condi-school">
+            From which highschool have you matriculated?
+        </label>
+        <input type="text" name="condi-school" id="condi-school">
+    </div>
+
+</div>

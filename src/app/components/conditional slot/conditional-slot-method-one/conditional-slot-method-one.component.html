@@ -1,0 +1,19 @@
+<dvt-conditional-slot-method-one-slot [questionNumber]="5" [question]="'Have you matriculated'">
+
+    <div class="question-insert">
+
+        <input type="checkbox" id="mo-matriculated" name="mo-matriculated"
+        [checked]="( matriculated === true )"
+        (change)="matriculated = $event.target.checked;">
+
+        <label for="mo-matriculated">I have matriculated.</label>
+
+        <dvt-conditional-slot-method-one-slot *ngIf="matriculated"
+            [question]="'From which highschool have you matriculated'">
+            <div class="question-insert">
+                <input type="text" name="mo-school" id="mo-school">
+            </div>
+        </dvt-conditional-slot-method-one-slot>
+        
+    </div>
+</dvt-conditional-slot-method-one-slot>

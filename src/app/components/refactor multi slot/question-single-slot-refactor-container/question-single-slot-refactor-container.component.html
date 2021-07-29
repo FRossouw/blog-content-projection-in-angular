@@ -1,0 +1,44 @@
+<dvt-question-single-slot-refactor [questionNumber]="4" [question]="'What is your contact details'">
+
+    <div class="question-insert">
+
+        <dvt-question-single-slot-refactor [question]="'What is your contact number'">
+            <div class="question-insert">
+                <input type="tel" id="multi-ref-phone" name="multi-ref-phone" placeholder="071 071 0717"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+        </dvt-question-single-slot-refactor>
+
+        <dvt-question-single-slot-refactor [question]="'What is your email'">
+            <div class="question-insert">
+                <input type="email" name="multi-ref-email" id="multi-ref-email">
+            </div>
+        </dvt-question-single-slot-refactor>
+
+        <dvt-question-single-slot-refactor [question]="'What is your postal address'">
+            <div class="question-insert">
+                <input type="text" name="multi-ref-address" id="multi-ref-address">
+            </div>
+        </dvt-question-single-slot-refactor>
+
+        <dvt-question-single-slot-refactor [question]="'What is your preferred contact means'">
+            <div class="question-insert">
+                <input type="radio" id="multi-ref-phone-cbx" name="contact" value="phone">
+                <label for="multi-ref-phone-cbx">Call Me</label>
+                <input type="radio" id="multi-ref-email-cbx" name="contact" value="email">
+                <label for="multi-ref-email-cbx">E-mail Me</label>
+                <input type="radio" id="multi-ref-postal-cbx" name="contact" value="postal">
+                <label for="multi-ref-postal-cbx">Post Me</label>
+            </div>
+        </dvt-question-single-slot-refactor>
+
+        <dvt-question-single-slot-refactor [question]="'Do you accept the terms and conditions'">
+            <div class="question-insert">
+                <input type="checkbox" id="multi-ref-terms" name="multi-ref-terms">
+                <label for="multi-ref-terms">I accept the terms and conditions</label>
+            </div>
+        </dvt-question-single-slot-refactor>
+
+    </div>
+
+</dvt-question-single-slot-refactor>

@@ -1,0 +1,9 @@
+<div>
+    <label>
+        <ng-container *ngIf="questionNumber">
+            {{questionNumber}}.
+        </ng-container> {{question}}?
+    </label>
+    <ng-content select=".part-1"></ng-content>
+    <ng-content select=".part-2"></ng-content>
+</div>

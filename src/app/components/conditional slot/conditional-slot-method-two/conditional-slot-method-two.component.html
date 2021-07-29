@@ -1,0 +1,16 @@
+<app-conditional-slot-method-two-slot [questionNumber]="5" [question]="'Have you matriculated'">
+
+    <div class="part-1">
+        <input type="checkbox" id="mt-matriculated" name="mt-matriculated" [checked]="( matriculated === true )"
+            (change)="matriculated = $event.target.checked;">
+        <label for="mt-matriculated">I accept the terms and conditions.</label>
+    </div>
+
+    <app-conditional-slot-method-two-slot class="part-2" *ngIf="matriculated"
+        [question]="'From which highschool have you matriculated'">
+        <div class="part-1">
+            <input type="text" name="mt-school" id="mt-school">
+        </div>
+    </app-conditional-slot-method-two-slot>
+
+</app-conditional-slot-method-two-slot>

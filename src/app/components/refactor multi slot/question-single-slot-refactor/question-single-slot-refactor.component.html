@@ -1,0 +1,8 @@
+<div>
+    <label>
+        <ng-container *ngIf="questionNumber">
+            {{questionNumber}}.
+        </ng-container> {{question}}?
+    </label>
+    <ng-content select=".question-insert"></ng-content>
+</div>

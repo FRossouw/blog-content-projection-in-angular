@@ -1,0 +1,38 @@
+<dvt-question-multi-slot [questionNumber]="4" [question]="'What is your contact details'"
+    [subQuestion]="'What is your preferred contact means'">
+
+    <div class="part-sub-question">
+        <input type="radio" id="multi-slot-phone-cbx" name="contact-multi" value="phone">
+        <label for="multi-slot-phone-cbx">Call Me</label>
+        <input type="radio" id="multi-slot-email-cbx" name="contact-multi" value="email">
+        <label for="multi-slot-email-cbx">E-mail Me</label>
+        <input type="radio" id="multi-slot-postal-cbx" name="contact-multi" value="postal">
+        <label for="multi-slot-postal-cbx">Post Me</label>
+    </div>
+
+    <div class="part-terms-and-conditions">
+        <input type="checkbox" id="multi-slot-terms" name="multi-slot-terms" value="accept">
+        <label for="multi-slot-terms">I accept the terms and conditions</label>
+    </div>
+
+    <div class="part-1-label">
+        <label for="multi-slot-phone">What is your contact number?</label>
+    </div>
+    <div class="part-2-label">
+        <label for="multi-slot-email">What is your email?</label>
+    </div>
+
+    <div class="part-1-input">
+        <input type="tel" id="multi-slot-phone" name="multi-slot-phone" placeholder="071 071 0717"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    </div>
+    <div class="part-2-input">
+        <input type="email" name="multi-slot-email" id="multi-slot-email">
+    </div>
+
+    <div class="part-3">
+        <label for="multi-slot-address">What is your postal address?</label>
+        <input type="text" name="multi-slot-address" id="multi-slot-address">
+    </div>
+
+</dvt-question-multi-slot>
