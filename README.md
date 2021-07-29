@@ -1,4 +1,4 @@
-# ContentProjection In Angular
+# Content Projection In Angular
 Reusable UI structures to simplify building complex views
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
