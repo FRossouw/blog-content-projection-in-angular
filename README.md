@@ -10,7 +10,7 @@ This article demonstrates how Content Projection can simplify your code by break
 
 I hope you can now see that Transclusion can help you improve your component reusability and ultimately to simplify dynamic DOM manipulation.
 
-If you would like to learn more about this please have a look at the Official Documentation here, where you can learn other topics such as the default template.
+If you would like to learn more about this please have a look at the Official Documentation [here](https://angular.io/guide/content-projection), where you can learn other topics such as the default template.
 
 Thank you for reading my article. I hope you learned something new and exciting, and that you now have a better understanding of Content Projection or Transclusion and the various types you can use to improve your code.
 
