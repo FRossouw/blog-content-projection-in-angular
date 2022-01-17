@@ -2,7 +2,7 @@
 Reusable UI structures to simplify building complex views
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
-(Content Projection in Angular)[https://medium.com/dvt-engineering/content-projection-in-angular-c23320ba3a70]
+[Content Projection in Angular](https://medium.com/dvt-engineering/content-projection-in-angular-c23320ba3a70)
 
 ## Blog Information
 Content Projection is a powerful directive used within Angular and it allows us to encapsulate elements into components that are fully customisable. This is achieved by injecting custom HTML into these components. In other words, parts of the component would change based on the currently displayed screen and DOM.
