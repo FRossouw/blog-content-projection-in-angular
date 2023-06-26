@@ -19,7 +19,7 @@ Please feel free to leave a comment if you need clarification or if you have som
 
 If you enjoyed this article please also check the [DVT Engineering](https://medium.com/dvt-engineering) space for more interesting articles and follow [me](https://medium.com/@frossouw) for future topics.
 
-## Starting the Applicaiton
+## Starting the Application
 1. Clone the project from GitHUb into a folder on your computer.
 2. Run `npm install` in the terminal to install all dependencies.
 3. Run `ng serve` for a local development server.
